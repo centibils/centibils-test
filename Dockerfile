@@ -17,4 +17,12 @@ RUN pip install \
     markdown \
     pelican
 
+RUN apt-get update \
+ && apt-get install -y \
+    libssl-dev \
+ && pip install \
+    fabric \
+    ghp-import
+
+EXPOSE 8000
 CMD bash
