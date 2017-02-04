@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Tobias Brandt'
 SITENAME = u'SAFA 2017 Presentation'
-SITEURL = ''
+SITEURL = 'http://centibils.github.io/safa2017'
 
 PATH = 'content'
 
