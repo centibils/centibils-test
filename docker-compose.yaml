@@ -1,0 +1,17 @@
+version: '2'
+services:
+    apt-cacher-ng:
+        container_name: apt-cacher-ng
+        image: sameersbn/apt-cacher-ng:latest
+        restart: always
+        ports:
+            - '3142:3142'
+        volumes:
+            - 'c:/Users/Tobias/Downloads/apt-cacher-ng:/var/cache/apt-cacher-ng'
+    pelican:
+        container_name: pelican
+        image: pelican
+        tty: true
+        stdin_open: true
+        volumes:
+            - 'c:/Users/Tobias/Documents:/var/documents'
