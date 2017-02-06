@@ -13,5 +13,7 @@ services:
         image: pelican
         tty: true
         stdin_open: true
+        ports:
+            - '8000:8000'
         volumes:
             - 'c:/Users/Tobias/Documents:/var/documents'
