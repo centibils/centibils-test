@@ -1,9 +1,5 @@
 Title: Uses
 Author: Tobias Brandt
+Summary: Uses and applications
 
-# Uses of Centibils
-
-There are many, like:
-
-  * Performance evaluation
-  * Yield curves
+{% notebook SAFA-2017.ipynb %}
