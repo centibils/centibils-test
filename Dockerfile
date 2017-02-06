@@ -22,7 +22,8 @@ RUN apt-get update \
     libssl-dev \
  && pip install \
     fabric \
-    ghp-import
+    ghp-import \
+    IPython[notebook]
 
 EXPOSE 8000
 CMD bash
