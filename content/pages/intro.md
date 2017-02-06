@@ -1,8 +1,8 @@
-Title: Intro
+Title: centiBils: logreturns for humans
 Author: Tobias Brandt
 Summary: Introduction and overview
-
-# Welcome to `centibils.info`
+URL:
+save_as: index.html
 
 This website will introduce the **centiBils** unit and showcase its use in
 Investment Performance Analysis.

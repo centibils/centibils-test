@@ -21,8 +21,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Menu
-MENUITEMS = (('Intro', 'pages/intro.html'),
-             ('Uses', 'pages/uses.html'),
+MENUITEMS = (('SAFA 2017', 'pages/safa2017.html'),
              ('About', 'pages/about.html'),)
 
 # Blogroll
