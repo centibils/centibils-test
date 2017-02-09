@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Tobias Brandt'
 SITENAME = u'centiBils'
 SITESUBTITLE = 'logreturns for humans'
-SITEURL = 'https://centibils.info'
+SITEURL = 'https://centibils.github.io/centibils-test'
 
 PATH = 'content'
 
