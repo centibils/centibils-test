@@ -22,6 +22,7 @@ env.cloudfiles_container = 'my_cloudfiles_container'
 
 # Github Pages configuration
 env.github_pages_branch = "master"
+env.cname = 'centibils.info'
 
 # Port for `serve`
 PORT = 8000
@@ -89,4 +90,4 @@ def publish():
 def gh_pages():
     """Publish to GitHub Pages"""
     rebuild()
-    local("ghp-import -n -b {github_pages_branch} {deploy_path} -p".format(**env))
+    local("ghp-import -n -c {cname} -b {github_pages_branch} {deploy_path} -p".format(**env))
