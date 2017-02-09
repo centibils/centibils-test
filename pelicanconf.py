@@ -13,6 +13,13 @@ TIMEZONE = 'Africa/Johannesburg'
 
 DEFAULT_LANG = u'English'
 
+# Social Media Links
+GOOGLE_ANALYTICS_ACCOUNT = "UA-90914886-1"
+TWITTER_USERNAME = "centibils"
+MAIL_USERNAME = "centibils"
+MAIL_HOST = "gmail.com"
+GITHUB_URL = "https://github.com/centibils"
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
